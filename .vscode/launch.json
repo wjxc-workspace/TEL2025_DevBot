@@ -1,0 +1,41 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TurretBallisticCalculator",
+      "request": "launch",
+      "mainClass": "frc.FSLib.maths.TurretBallisticCalculator",
+      "projectName": "2025DevBot"
+    },
+    {
+      "type": "java",
+      "name": "Turret3DAngleCalculator",
+      "request": "launch",
+      "mainClass": "frc.FSLib.maths.Turret3DAngleCalculator",
+      "projectName": "2025DevBot"
+    },
+    {
+      "type": "java",
+      "name": "PolynomialRegression",
+      "request": "launch",
+      "mainClass": "frc.FSLib.maths.PolynomialRegression",
+      "projectName": "2025DevBot"
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib Desktop Debug",
+      "request": "launch",
+      "desktop": true
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib roboRIO Debug",
+      "request": "launch",
+      "desktop": false
+    }
+  ]
+}
